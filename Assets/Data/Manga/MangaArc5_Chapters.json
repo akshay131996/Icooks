@@ -1,0 +1,507 @@
+{
+    "arcId": 5,
+    "arcName": "The Smile Behind the Smoke",
+    "setting": "Grand Finale",
+    "tone": "Emotional & Mysterious",
+    "chapters": [
+        {
+            "chapterNumber": 1,
+            "globalIndex": 21,
+            "title": "The Map Completes",
+            "subtitle": "Every clue leads to one place",
+            "unlockAtLevel": 80,
+            "coinReward": 120,
+            "gemReward": 15,
+            "previewDescription": "The boy assembles all the clues. The ghost kitchens, the recipes, the letters — they all point somewhere.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c1_p1",
+                            "narratorText": "The boy spread everything on the floor of a rented room. The knife with the smile. The spice pouch. The waterlogged journal. The unsent letters. The map. The recipe.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c1_p2",
+                            "narratorText": "And slowly, terribly, beautifully — it came together.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "ZoomIn",
+                            "sfxKey": "sfx_revelation"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a5c1_p3",
+                            "narratorText": "Every ghost kitchen — same layout, same burn marks — was a test. A recreation of something lost. Every student was an attempt to pass on something before it was too late. Every recipe in the journal was a step toward one dish. THE dish.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c1_p4",
+                            "narratorText": "The map's circled location aligned with the journal's final entry. The master wasn't running. He was building something — a network of kitchens, of students, of recipes — all leading to one point.",
+                            "dialogueText": "But what is there? What was he building?",
+                            "speakerName": "Boy",
+                            "characterExpression": "determined",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c1_p5",
+                            "narratorText": "There was only one way to find out.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_adventure_begin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "globalIndex": 22,
+            "title": "Reunion",
+            "subtitle": "The shack at the end of the world",
+            "unlockAtLevel": 85,
+            "coinReward": 150,
+            "gemReward": 20,
+            "previewDescription": "The boy finds the master. After everything... a tiny roadside stall. And a smile.",
+            "pages": [
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a5c2_p1",
+                            "narratorText": "He found it on a hilltop, overlooking the sea. A tiny roadside stall. Crumbling walls. Smoke pouring from every crack. Identical to the first one. Identical to all of them.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a5c2_p2",
+                            "narratorText": "And there he was. Older. Thinner. Grey in his hair. Lines deeper on his face. But the smile — the impossible, infuriating, beautiful smile — was exactly the same.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_emotional_deep"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c2_p3",
+                            "narratorText": "",
+                            "dialogueText": "WHY DID YOU LEAVE?!",
+                            "speakerName": "Boy",
+                            "characterExpression": "furious_tearful",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "SlideUp"
+                        },
+                        {
+                            "panelId": "a5c2_p4",
+                            "narratorText": "",
+                            "dialogueText": "Because you were ready.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_gentle",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c2_p5",
+                            "narratorText": "",
+                            "dialogueText": "I WASN'T ready!",
+                            "speakerName": "Boy",
+                            "characterExpression": "angry_crying",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c2_p6",
+                            "narratorText": "The master's smile widened, warm and real and impossibly present.",
+                            "dialogueText": "And yet... here you are.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_proud",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "globalIndex": 23,
+            "title": "The Recipe That Doesn't Exist",
+            "subtitle": "The missing ingredient was never a spice",
+            "unlockAtLevel": 90,
+            "coinReward": 150,
+            "gemReward": 20,
+            "previewDescription": "The master reveals his lifelong quest: a dish that captures a feeling with no name...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c3_p1",
+                            "narratorText": "They sat together. Tea first, then talking. The master spoke more in that evening than in all the months the boy had studied under him.",
+                            "dialogueText": "My whole life, I've been looking for one thing. A dish that captures a feeling.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_thoughtful",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c3_p2",
+                            "narratorText": "",
+                            "dialogueText": "What feeling?",
+                            "speakerName": "Boy",
+                            "characterExpression": "quiet",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c3_p3",
+                            "narratorText": "",
+                            "dialogueText": "Something between joy and sadness. Between nostalgia and hope. The feeling you get when you see fireflies for the first time. Or when you smell your childhood kitchen after years away. It has no name in any language I've found.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_distant",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c3_p4",
+                            "narratorText": "The master cooked the dish. The recipe from the suitcase. Each step was precise, careful — a lifetime distilled into one pot.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        },
+                        {
+                            "panelId": "a5c3_p5",
+                            "narratorText": "The boy tasted it. It was the most incredible thing he had ever eaten. Better than the first time. Better than anything.",
+                            "dialogueText": "It's... perfect.",
+                            "speakerName": "Boy",
+                            "characterExpression": "awed",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a5c3_p6",
+                            "narratorText": "The master shook his head. Still smiling, but differently now. Gentler.",
+                            "dialogueText": "But it's missing something. And I think I finally know what. The recipe was never meant to be eaten alone.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_revelation",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_revelation"
+                        },
+                        {
+                            "panelId": "a5c3_p7",
+                            "narratorText": "The missing ingredient wasn't a spice or a technique. It was the people you cook for. The nameless feeling? It's connection. It was always connection.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 4,
+            "globalIndex": 24,
+            "title": "The Final Cook-Off",
+            "subtitle": "Master and student, one last time",
+            "unlockAtLevel": 95,
+            "coinReward": 150,
+            "gemReward": 20,
+            "previewDescription": "No audience. No judges. Just two people cooking on a hilltop at dawn.",
+            "pages": [
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a5c4_p1",
+                            "narratorText": "Dawn. The hilltop. The sea below, turning gold. Two portable stoves. Two sets of ingredients. No audience. No judges. No rules.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c4_p2",
+                            "narratorText": "The master made the nameless dish one final time. Every movement was poetry — decades of practice in each flick of the wrist.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c4_p3",
+                            "narratorText": "The boy made his own dish. Something new. Something the master had never tasted. Made from everything the boy had gathered across continents — Rajasthan spice, Kerala sea salt, Kolkata fire, Vietnamese precision, Istanbul warmth, Moscow defiance, and something uniquely his own.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a5c4_p4",
+                            "narratorText": "They exchanged plates. They ate in silence. The morning light caught the steam rising between them.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_climax"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c4_p5",
+                            "narratorText": "The master's smile changed. For the first time in the entire story, it was different. Not a mask. Not defiance. Not a gift for others. This was genuine. Pure. Unguarded.",
+                            "dialogueText": "You surpassed me.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_genuine",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_revelation"
+                        },
+                        {
+                            "panelId": "a5c4_p6",
+                            "narratorText": "",
+                            "dialogueText": "You taught me to surpass you. That's why you always smiled.",
+                            "speakerName": "Boy",
+                            "characterExpression": "smile_wise",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c4_p7",
+                            "narratorText": "And for the first time, someone smiled for the master. The boy smiled back.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 5,
+            "globalIndex": 25,
+            "title": "Smoke",
+            "subtitle": "The cycle continues",
+            "unlockAtLevel": 100,
+            "coinReward": 200,
+            "gemReward": 25,
+            "previewDescription": "Epilogue. A new kitchen. A new student. And in the distance... smoke.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c5_p1",
+                            "narratorText": "Months later. A new town. A tiny kitchen — crumbling walls, smoke pouring from every crack. Exactly like all the others. But this one was the boy's.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c5_p2",
+                            "narratorText": "A child stood in the doorway. Small, curious, nose lifted to the impossible smell.",
+                            "dialogueText": "What are you making?",
+                            "speakerName": "New Student",
+                            "characterExpression": "wonder",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c5_p3",
+                            "narratorText": "The boy — no, the young chef — smiled.",
+                            "dialogueText": "Something that doesn't exist yet.",
+                            "speakerName": "Young Chef (Boy)",
+                            "characterExpression": "smile",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c5_p4",
+                            "narratorText": "Later, the new student asked the inevitable question.",
+                            "dialogueText": "Who was YOUR master?",
+                            "speakerName": "New Student",
+                            "characterExpression": "curious",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a5c5_p5",
+                            "narratorText": "The young chef's eyes twinkled.",
+                            "dialogueText": "He once cooked in 100 pots at the same time! Flames shooting everywhere! The fire brigade came THREE TIMES!",
+                            "speakerName": "Young Chef (Boy)",
+                            "characterExpression": "animated",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        },
+                        {
+                            "panelId": "a5c5_p6",
+                            "narratorText": "",
+                            "dialogueText": "He made something so spicy that the RAIN stopped! Even the clouds ran away!",
+                            "speakerName": "Young Chef (Boy)",
+                            "characterExpression": "dramatic",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideRight"
+                        },
+                        {
+                            "panelId": "a5c5_p7",
+                            "narratorText": "",
+                            "dialogueText": "And his smile? His smile could calm the OCEAN!",
+                            "speakerName": "Young Chef (Boy)",
+                            "characterExpression": "laughing",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a5c5_p8",
+                            "narratorText": "The new student's eyes went wide. The young chef smiled — the same smile. Not identical, but the same spirit. The stories had already started growing.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a5c5_p9",
+                            "narratorText": "Far away, on a hilltop overlooking the sea, the master sat by a fire. Cooking something. The smoke rose into the evening sky like a signal, or a memory, or a promise.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_final_emotional"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a5c5_p10",
+                            "narratorText": "Still smiling. Always smiling.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_end"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
