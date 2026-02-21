@@ -1,0 +1,463 @@
+{
+    "arcId": 3,
+    "arcName": "Storms at Sea",
+    "setting": "Southeast Asia",
+    "tone": "Dark & Resilient",
+    "chapters": [
+        {
+            "chapterNumber": 1,
+            "globalIndex": 11,
+            "title": "The Floating Kitchen",
+            "subtitle": "Cooking through a typhoon with a smile",
+            "unlockAtLevel": 40,
+            "coinReward": 90,
+            "gemReward": 10,
+            "previewDescription": "In Thailand, the boy discovers the master once ran a kitchen on a fishing boat, cooking for free...",
+            "pages": [
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a3c1_p1",
+                            "narratorText": "Thailand. The Andaman coast. Turquoise water stretching to infinity. And in a cramped harbor, a boat that smelled unmistakably of the master.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c1_p2",
+                            "narratorText": "An old fisherman recognized the boy's questions before he asked them.",
+                            "dialogueText": "The Laughing Cook? He lived on this boat for six months! Cooked for every fisherman in the harbor. Never charged a single baht.",
+                            "speakerName": "Thai Fisherman",
+                            "characterExpression": "nostalgic",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c1_p3",
+                            "narratorText": "",
+                            "dialogueText": "And his SMILE! His smile could calm the ocean! One time during a typhoon—",
+                            "speakerName": "Thai Fisherman",
+                            "characterExpression": "animated",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a3c1_p4",
+                            "narratorText": "The fisherman's story burst into a full dramatic splash page: the master, balanced on a rocking boat in hurricane winds, pots flying, waves crashing over the deck, fish literally jumping out of the sea INTO the pots — and the master just standing there. Smiling.",
+                            "dialogueText": "The fish liked his cooking so much they JUMPED INTO THE BOAT!",
+                            "speakerName": "Thai Fisherman",
+                            "characterExpression": "wild",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_storm_dramatic"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c1_p5",
+                            "narratorText": "The boy smiled at the absurdity. But beneath the exaggeration, a truth: the master helped people wherever he went. For free. Always.",
+                            "dialogueText": "Why did he leave?",
+                            "speakerName": "Boy",
+                            "characterExpression": "quiet",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c1_p6",
+                            "narratorText": "The fisherman's smile faded.",
+                            "dialogueText": "He always left. We just woke up one morning and the boat was empty. The stove was still warm.",
+                            "speakerName": "Thai Fisherman",
+                            "characterExpression": "sad",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "globalIndex": 12,
+            "title": "The Student Before You",
+            "subtitle": "You're not the only one he left",
+            "unlockAtLevel": 44,
+            "coinReward": 90,
+            "gemReward": 10,
+            "previewDescription": "In Vietnam, the boy meets someone he never expected — another former student...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c2_p1",
+                            "narratorText": "Ho Chi Minh City. A small restaurant with no sign, packed every night. The chef was a woman named Lan — fierce, precise, and furious when she heard the boy's story.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c2_p2",
+                            "narratorText": "",
+                            "dialogueText": "You came here looking for HIM? Let me save you the trouble. He's gone. He's always gone. That's what he DOES.",
+                            "speakerName": "Lan",
+                            "characterExpression": "bitter",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c2_p3",
+                            "narratorText": "The boy's stomach dropped.",
+                            "dialogueText": "You were... his student?",
+                            "speakerName": "Boy",
+                            "characterExpression": "shocked",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c2_p4",
+                            "narratorText": "",
+                            "dialogueText": "For three years. He taught me everything. Then one morning — gone. A note. 'Keep the fire going.' Sound familiar?",
+                            "speakerName": "Lan",
+                            "characterExpression": "bitter_laugh",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a3c2_p5",
+                            "narratorText": "The boy felt something collapse inside him. He wasn't special. The master collected students and disappeared. It was a pattern.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_somber"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c2_p6",
+                            "narratorText": "They cooked together that night. Lan's food was extraordinary — sharp, bold, unafraid. Every dish screamed 'I survived.'",
+                            "dialogueText": "He ruined me. But he also made me. I don't know which one I can't forgive.",
+                            "speakerName": "Lan",
+                            "characterExpression": "vulnerable",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_deep"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "globalIndex": 13,
+            "title": "The Monsoon Week",
+            "subtitle": "The truth behind the smile",
+            "unlockAtLevel": 48,
+            "coinReward": 100,
+            "gemReward": 12,
+            "previewDescription": "A harrowing flashback: the master, stranded on an island during a week-long monsoon...",
+            "pages": [
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a3c3_p1",
+                            "narratorText": "An old fisherman on a remote Indonesian island told a story the boy would never forget.",
+                            "dialogueText": "I was there. On the island. When the monsoon trapped us for seven days.",
+                            "speakerName": "Old Fisherman",
+                            "characterExpression": "haunted",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_monsoon"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c3_p2",
+                            "narratorText": "Flashback. A small volcanic island. Twelve people stranded. No food. No fire. Rain like bullets from the sky.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c3_p3",
+                            "narratorText": "The master found volcanic steam vents. He cooked with them — seaweed, rain-caught fish, wild roots. Food for twelve, made from nothing, with heat from the earth itself.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "SlideUp"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a3c3_p4",
+                            "narratorText": "By day five, the master was gaunt. His hands trembled. He hadn't eaten — he gave his portion to the children every time. But he never stopped smiling.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_somber"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c3_p5",
+                            "narratorText": "",
+                            "dialogueText": "How can you smile? We might die here.",
+                            "speakerName": "Stranded Woman",
+                            "characterExpression": "terrified",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c3_p6",
+                            "narratorText": "",
+                            "dialogueText": "Because you stopped crying.",
+                            "speakerName": "The Master",
+                            "characterExpression": "smile_sad",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_revelation"
+                        },
+                        {
+                            "panelId": "a3c3_p7",
+                            "narratorText": "The smile wasn't just his expression. It was a gift. A shield. The master smiled so others could stop being afraid. But who smiled for him?",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 4,
+            "globalIndex": 14,
+            "title": "Recipes in the Rain",
+            "subtitle": "Waterlogged pages, tiny sketches of home",
+            "unlockAtLevel": 52,
+            "coinReward": 90,
+            "gemReward": 10,
+            "previewDescription": "The boy finds the master's handwritten recipe journal — waterlogged but revealing...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c4_p1",
+                            "narratorText": "A market stall in the Philippines. Among piles of secondhand books, a leather journal. Water-damaged. The boy recognized the handwriting instantly.",
+                            "dialogueText": "Where did you get this?!",
+                            "speakerName": "Boy",
+                            "characterExpression": "desperate",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c4_p2",
+                            "narratorText": "",
+                            "dialogueText": "Some sailor sold it. Said the owner wouldn't need it anymore. Didn't say why.",
+                            "speakerName": "Stall Owner",
+                            "characterExpression": "shrug",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c4_p3",
+                            "narratorText": "Half the pages were destroyed. The surviving recipes were bizarre — Indian spices with Japanese technique, Thai flavors in Italian pasta, dishes that should never work but somehow... made sense on paper.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        },
+                        {
+                            "panelId": "a3c4_p4",
+                            "narratorText": "But what stopped the boy's breathing were the margins. In tiny pencil, hidden between recipes: sketches. Of a small town. Of a crumbling shack. Of a boy standing in a doorway.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn",
+                            "sfxKey": "sfx_emotional_deep"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a3c4_p5",
+                            "narratorText": "He was out here, thousands of miles away, crossing oceans and countries — and he was drawing the boy's hometown. He was thinking of home.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c4_p6",
+                            "narratorText": "The boy ran his finger over the tiny sketches. The paper was fragile. But the memory was not.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 5,
+            "globalIndex": 15,
+            "title": "The Debt Collectors",
+            "subtitle": "The master broke promises too",
+            "unlockAtLevel": 55,
+            "coinReward": 100,
+            "gemReward": 12,
+            "previewDescription": "The master's debts come due — not money, but broken promises. And the boy must pay.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c5_p1",
+                            "narratorText": "Malaysia. The boy walked into a restaurant to ask about the master and walked into a wall of anger.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c5_p2",
+                            "narratorText": "Five former associates. The master had promised each of them something: to teach, to partner, to return. He kept none of the promises.",
+                            "dialogueText": "You're HIS student? Then YOU cook for us. He owes us that much.",
+                            "speakerName": "Former Associate",
+                            "characterExpression": "angry",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a3c5_p3",
+                            "narratorText": "The boy could have run. Instead, he cooked. For all five. Using everything he had learned — the burned lessons, the desert spice, the monsoon recipes, Lan's boldness.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c5_p4",
+                            "narratorText": "They ate. And one by one, they cried.",
+                            "dialogueText": "He taught you well. Too well.",
+                            "speakerName": "Former Associate",
+                            "characterExpression": "tearful",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_deep"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a3c5_p5",
+                            "narratorText": "The boy began to understand something uncomfortable. The master wasn't perfect. He made promises he couldn't keep. He left scars alongside gifts. He was brilliantly, painfully human.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a3c5_p6",
+                            "narratorText": "But the food — the food was always real. And that had to count for something.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_adventure_continue"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
