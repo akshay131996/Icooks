@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iCooks — Main Menu Prototype</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1a1008;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  }
+
+  .phone-frame {
+    width: 390px;
+    height: 844px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6),
+                inset 0 0 0 3px rgba(255,200,100,0.15);
+  }
+
+  .menu-bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:
+      radial-gradient(ellipse at 50% 20%, rgba(255,140,20,0.25) 0%, transparent 60%),
+      radial-gradient(ellipse at 30% 80%, rgba(180,60,20,0.2) 0%, transparent 50%),
+      linear-gradient(180deg, #2d1a0a 0%, #1a0e05 40%, #0d0804 100%);
+    overflow: hidden;
+  }
+
+  /* Animated bokeh lights */
+  .bokeh {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: float 6s ease-in-out infinite;
+  }
+  .bokeh:nth-child(1) { width: 8px; height: 8px; background: rgba(255,200,80,0.7); top: 8%; left: 15%; animation-delay: 0s; }
+  .bokeh:nth-child(2) { width: 6px; height: 6px; background: rgba(255,160,60,0.5); top: 12%; left: 45%; animation-delay: 1s; }
+  .bokeh:nth-child(3) { width: 10px; height: 10px; background: rgba(255,220,120,0.6); top: 6%; left: 72%; animation-delay: 2s; }
+  .bokeh:nth-child(4) { width: 5px; height: 5px; background: rgba(255,180,80,0.4); top: 15%; left: 85%; animation-delay: 0.5s; }
+  .bokeh:nth-child(5) { width: 7px; height: 7px; background: rgba(255,140,40,0.5); top: 10%; left: 30%; animation-delay: 3s; }
+  .bokeh:nth-child(6) { width: 9px; height: 9px; background: rgba(255,200,100,0.4); top: 5%; left: 60%; animation-delay: 1.5s; }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) scale(1); opacity: 0.6; }
+    50% { transform: translateY(-8px) scale(1.3); opacity: 1; }
+  }
+
+  /* Fairy lights string */
+  .fairy-lights {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+  }
+  .fairy-string {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 25px;
+    border-bottom: 2px solid rgba(255,200,100,0.3);
+    border-radius: 0 0 50% 50%;
+  }
+  .fairy-bulb {
+    position: absolute;
+    bottom: -8px;
+    width: 10px;
+    height: 14px;
+    border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  .fairy-bulb:nth-child(2) { left: 10%; background: #ff6b35; animation-delay: 0s; }
+  .fairy-bulb:nth-child(3) { left: 25%; background: #ffd700; animation-delay: 0.3s; }
+  .fairy-bulb:nth-child(4) { left: 40%; background: #ff4444; animation-delay: 0.6s; }
+  .fairy-bulb:nth-child(5) { left: 55%; background: #44dd44; animation-delay: 0.9s; }
+  .fairy-bulb:nth-child(6) { left: 70%; background: #ffa500; animation-delay: 1.2s; }
+  .fairy-bulb:nth-child(7) { left: 85%; background: #ff6b9d; animation-delay: 1.5s; }
+
+  @keyframes glow {
+    0% { filter: brightness(0.7) blur(0px); box-shadow: 0 0 4px currentColor; }
+    100% { filter: brightness(1.3) blur(1px); box-shadow: 0 0 12px currentColor, 0 3px 15px currentColor; }
+  }
+
+  /* Logo area */
+  .logo-area {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+  }
+
+  .logo-sign {
+    position: relative;
+    background: linear-gradient(135deg, #8B4513, #654321, #8B4513);
+    padding: 20px 45px 18px;
+    border-radius: 8px;
+    border: 3px solid #a0652e;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5),
+                inset 0 1px 0 rgba(255,200,100,0.2);
+    transform: rotate(-1.5deg);
+  }
+  .logo-sign::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 15px;
+    background: #654321;
+    border-radius: 3px;
+    box-shadow: -60px 0 0 #654321, 60px 0 0 #654321;
+  }
+  .logo-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #ffd700 0%, #ff8c00 50%, #ff6347 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    letter-spacing: 3px;
+  }
+  .logo-subtitle {
+    font-size: 11px;
+    color: #d4a76a;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* Stall illustration area */
+  .stall-area {
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 180px;
+    z-index: 5;
+  }
+
+  .stall-cart {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 90px;
+    background: linear-gradient(180deg, #8B5E3C, #6B4226);
+    border-radius: 5px 5px 0 0;
+    border: 2px solid #a0652e;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  }
+  .stall-cart::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 20%;
+    width: 24px;
+    height: 24px;
+    background: #444;
+    border-radius: 50%;
+    border: 3px solid #666;
+    box-shadow: 140px 0 0 0 #444, 140px 0 0 3px #666;
+  }
+
+  .tawa {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 25px;
+    background: radial-gradient(ellipse, #3a3a3a, #222);
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+  }
+
+  /* Steam animation */
+  .steam {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+  }
+  .steam-line {
+    width: 3px;
+    height: 30px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    animation: steam-rise 2s ease-out infinite;
+  }
+  .steam-line:nth-child(1) { animation-delay: 0s; height: 25px; }
+  .steam-line:nth-child(2) { animation-delay: 0.4s; height: 35px; }
+  .steam-line:nth-child(3) { animation-delay: 0.8s; height: 28px; }
+
+  @keyframes steam-rise {
+    0% { transform: translateY(0) scaleX(1); opacity: 0.4; }
+    50% { transform: translateY(-15px) scaleX(1.5); opacity: 0.2; }
+    100% { transform: translateY(-30px) scaleX(2); opacity: 0; }
+  }
+
+  /* Awning / canopy */
+  .awning {
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 340px;
+    height: 30px;
+    z-index: 6;
+    display: flex;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+  }
+  .awning-stripe {
+    flex: 1;
+    height: 100%;
+  }
+  .awning-stripe:nth-child(odd) { background: #cc3333; }
+  .awning-stripe:nth-child(even) { background: #f0e0b0; }
+
+  /* Coin display */
+  .currency-bar {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 20;
+  }
+  .currency-pill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,200,100,0.3);
+    border-radius: 20px;
+    padding: 4px 12px 4px 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffd700;
+  }
+  .currency-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .coin-icon { background: linear-gradient(135deg, #ffd700, #ff8c00); color: #5a3000; }
+  .gem-icon { background: linear-gradient(135deg, #e040fb, #7c4dff); color: white; }
+
+  /* Menu buttons */
+  .menu-buttons {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 10;
+  }
+
+  .menu-btn {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .menu-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 50%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 14px 14px 0 0;
+  }
+
+  .menu-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  }
+
+  .menu-btn:active {
+    transform: translateY(0);
+  }
+
+  .btn-play {
+    background: linear-gradient(135deg, #ff6b35, #e84118, #c0392b);
+    color: white;
+    box-shadow: 0 4px 15px rgba(232,65,24,0.5);
+    font-size: 20px;
+    padding: 18px;
+  }
+
+  .btn-recipes {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+    color: white;
+    box-shadow: 0 4px 15px rgba(211,84,0,0.4);
+  }
+
+  .btn-shop {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: #3d2600;
+    box-shadow: 0 4px 15px rgba(243,156,18,0.4);
+  }
+
+  .btn-stories {
+    background: linear-gradient(135deg, #16a085, #1abc9c);
+    color: white;
+    box-shadow: 0 4px 15px rgba(22,160,133,0.4);
+  }
+
+  .btn-row {
+    display: flex;
+    gap: 14px;
+  }
+  .btn-row .menu-btn {
+    flex: 1;
+  }
+
+  /* Settings icon */
+  .settings-btn {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,200,100,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4a76a;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.3s;
+  }
+  .settings-btn:hover {
+    background: rgba(255,200,100,0.2);
+    transform: rotate(90deg);
+  }
+
+  /* Bottom decorative spice border */
+  .spice-border {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+  }
+  .spice-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+  .spice-dot:nth-child(1) { background: #ff6347; }
+  .spice-dot:nth-child(2) { background: #ffd700; }
+  .spice-dot:nth-child(3) { background: #e67e22; }
+  .spice-dot:nth-child(4) { background: #c0392b; }
+  .spice-dot:nth-child(5) { background: #27ae60; }
+  .spice-dot:nth-child(6) { background: #ff6347; }
+  .spice-dot:nth-child(7) { background: #ffd700; }
+
+  /* Rangoli decorative pattern */
+  .rangoli {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: rgba(212,167,106,0.4);
+    letter-spacing: 3px;
+    z-index: 10;
+  }
+
+  /* Masala spice containers on stall */
+  .masala-jars {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+  }
+  .masala-jar {
+    width: 18px;
+    height: 22px;
+    border-radius: 3px 3px 5px 5px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .masala-jar:nth-child(1) { background: linear-gradient(180deg, #c0392b, #922b21); }
+  .masala-jar:nth-child(2) { background: linear-gradient(180deg, #f1c40f, #d4ac0d); }
+  .masala-jar:nth-child(3) { background: linear-gradient(180deg, #e67e22, #ca6f1e); }
+  .masala-jar:nth-child(4) { background: linear-gradient(180deg, #27ae60, #1e8449); }
+  .masala-jar:nth-child(5) { background: linear-gradient(180deg, #8e6b3e, #6d4e2e); }
+</style>
+</head>
+<body>
+
+<div class="phone-frame">
+  <div class="menu-bg">
+    <!-- Bokeh lights -->
+    <div class="bokeh"></div>
+    <div class="bokeh"></div>
+    <div class="bokeh"></div>
+    <div class="bokeh"></div>
+    <div class="bokeh"></div>
+    <div class="bokeh"></div>
+
+    <!-- Fairy lights -->
+    <div class="fairy-lights">
+      <div class="fairy-string">
+        <div class="fairy-bulb"></div>
+        <div class="fairy-bulb"></div>
+        <div class="fairy-bulb"></div>
+        <div class="fairy-bulb"></div>
+        <div class="fairy-bulb"></div>
+        <div class="fairy-bulb"></div>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="settings-btn">⚙</div>
+
+    <!-- Currency -->
+    <div class="currency-bar">
+      <div class="currency-pill">
+        <div class="currency-icon coin-icon">₹</div>
+        1,250
+      </div>
+      <div class="currency-pill">
+        <div class="currency-icon gem-icon">◆</div>
+        45
+      </div>
+    </div>
+
+    <!-- Logo sign -->
+    <div class="logo-area">
+      <div class="logo-sign">
+        <div class="logo-title">iCooks</div>
+        <div class="logo-subtitle">Street Kitchen</div>
+      </div>
+    </div>
+
+    <!-- Awning -->
+    <div class="awning">
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+      <div class="awning-stripe"></div>
+    </div>
+
+    <!-- Stall cart -->
+    <div class="stall-area">
+      <div class="stall-cart">
+        <!-- Masala jars on counter -->
+        <div class="masala-jars">
+          <div class="masala-jar"></div>
+          <div class="masala-jar"></div>
+          <div class="masala-jar"></div>
+          <div class="masala-jar"></div>
+          <div class="masala-jar"></div>
+        </div>
+        <!-- Tawa -->
+        <div class="tawa">
+          <div class="steam">
+            <div class="steam-line"></div>
+            <div class="steam-line"></div>
+            <div class="steam-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu buttons -->
+    <div class="menu-buttons">
+      <button class="menu-btn btn-play">🔥 Start Cooking</button>
+      <button class="menu-btn btn-recipes">📖 Recipe Book</button>
+      <div class="btn-row">
+        <button class="menu-btn btn-shop">🏪 Shop</button>
+        <button class="menu-btn btn-stories">📜 Stories</button>
+      </div>
+    </div>
+
+    <!-- Spice dots -->
+    <div class="spice-border">
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+      <div class="spice-dot"></div>
+    </div>
+
+    <!-- Rangoli footer -->
+    <div class="rangoli">✦ ❋ ✦ ❋ ✦</div>
+  </div>
+</div>
+
+</body>
+</html>
