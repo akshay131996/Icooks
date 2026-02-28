@@ -19,46 +19,56 @@ namespace ChefJourney.Core
         [SerializeField] private float interactionRange = 1.5f;
 
         [Header("References")]
-        [SerializeField] private Animator animator;
+        [SerializeField] private ChefAnimationController animationController;
         [SerializeField] private SpriteRenderer spriteRenderer;
 
         // ─── Runtime ───────────────────────────────────────────
         private Rigidbody2D _rb;
         private Vector2 _moveInput;
+        private Vector2 _touchInput;
         private bool _isCarrying;
         private GameObject _carriedObject;
-        private bool _carryingDish; // true if carrying a cooked dish (vs raw ingredient)
-
-        // Animation hashes (cached for performance)
-        private static readonly int AnimMoveX = Animator.StringToHash("MoveX");
-        private static readonly int AnimMoveY = Animator.StringToHash("MoveY");
-        private static readonly int AnimIsMoving = Animator.StringToHash("IsMoving");
-        private static readonly int AnimIsCarrying = Animator.StringToHash("IsCarrying");
+        private bool _carryingDish; 
 
         public bool IsCarrying => _isCarrying;
 
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
-            if (animator == null) animator = GetComponent<Animator>();
-            if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+            if (animationController == null)
+                animationController = GetComponent<ChefAnimationController>();
         }
 
         private void Update()
         {
-            // Keyboard / gamepad input
-            _moveInput = new Vector2(
+            // Keyboard input
+            Vector2 keyboardInput = new Vector2(
                 Input.GetAxisRaw("Horizontal"),
                 Input.GetAxisRaw("Vertical")
-            ).normalized;
+            );
+
+            // Keyboard takes priority over touch; use touch only when keyboard is idle
+            _moveInput = keyboardInput.sqrMagnitude > 0.01f ? keyboardInput : _touchInput;
+
+            // Animation and direction
+            if (animationController != null)
+            {
+                if (_moveInput.sqrMagnitude > 0.01f)
+                {
+                    animationController.SetState(ChefAnimationController.ChefState.Walking);
+                    animationController.SetFacingDirection(_moveInput.x);
+                }
+                else
+                {
+                    animationController.SetState(ChefAnimationController.ChefState.Idle);
+                }
+            }
 
             // Space key — contextual action
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 DoContextualAction();
             }
-
-            UpdateAnimations();
         }
 
         private void FixedUpdate()
@@ -73,7 +83,7 @@ namespace ChefJourney.Core
         /// </summary>
         public void SetMoveInput(Vector2 input)
         {
-            _moveInput = input.normalized;
+            _touchInput = input.normalized;
         }
 
         /// <summary>
@@ -243,24 +253,7 @@ namespace ChefJourney.Core
             return best;
         }
 
-        private void UpdateAnimations()
-        {
-            if (animator == null) return;
 
-            bool isMoving = _moveInput.sqrMagnitude > 0.01f;
-            animator.SetBool(AnimIsMoving, isMoving);
-            animator.SetBool(AnimIsCarrying, _isCarrying);
-
-            if (isMoving)
-            {
-                animator.SetFloat(AnimMoveX, _moveInput.x);
-                animator.SetFloat(AnimMoveY, _moveInput.y);
-
-                // Flip sprite based on horizontal direction
-                if (spriteRenderer != null && Mathf.Abs(_moveInput.x) > 0.1f)
-                    spriteRenderer.flipX = _moveInput.x < 0;
-            }
-        }
 
         private void OnDrawGizmosSelected()
         {

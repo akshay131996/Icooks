@@ -21,7 +21,7 @@ namespace ChefJourney.UI
         private Canvas _canvas;
         private RectTransform _joystickBase;
         private RectTransform _joystickStick;
-        private bool _isDragging;
+        private bool _isJoystickActive;
         private Vector2 _inputVector;
         private Core.PlayerController _player;
 
@@ -39,7 +39,8 @@ namespace ChefJourney.UI
 
         private void Update()
         {
-            if (_player != null)
+            // Only send touch input when the joystick is actively being dragged
+            if (_player != null && _isJoystickActive)
             {
                 _player.SetMoveInput(_inputVector);
             }
@@ -145,6 +146,21 @@ namespace ChefJourney.UI
         {
             _inputVector = input;
         }
+
+        /// <summary>
+        /// Called by JoystickDragger to signal whether the joystick is being used.
+        /// </summary>
+        public void SetJoystickActive(bool active)
+        {
+            _isJoystickActive = active;
+            if (!active)
+            {
+                _inputVector = Vector2.zero;
+                // Clear touch input on the player when joystick released
+                if (_player != null)
+                    _player.SetMoveInput(Vector2.zero);
+            }
+        }
     }
 
     /// <summary>
@@ -167,6 +183,7 @@ namespace ChefJourney.UI
 
         public void OnPointerDown(PointerEventData eventData)
         {
+            _overlay.SetJoystickActive(true);
             OnDrag(eventData);
         }
 
@@ -192,6 +209,7 @@ namespace ChefJourney.UI
         {
             _stick.anchoredPosition = Vector2.zero;
             _overlay.SetJoystickInput(Vector2.zero);
+            _overlay.SetJoystickActive(false);
         }
     }
 }

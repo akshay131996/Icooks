@@ -82,17 +82,11 @@ namespace ChefJourney.Manga
                 laterButton.onClick.AddListener(OnLater);
         }
 
-        private void OnEnable()
+        private void Start()
         {
-            // Listen for chapter unlock events
+            // Listen for chapter unlock events after all Awakes are done
             if (MangaManager.Instance != null)
                 MangaManager.Instance.OnChapterUnlocked += ShowUnlockPopup;
-        }
-
-        private void OnDisable()
-        {
-            if (MangaManager.Instance != null)
-                MangaManager.Instance.OnChapterUnlocked -= ShowUnlockPopup;
         }
 
         private void OnDestroy()
@@ -101,6 +95,9 @@ namespace ChefJourney.Manga
                 readNowButton.onClick.RemoveListener(OnReadNow);
             if (laterButton != null)
                 laterButton.onClick.RemoveListener(OnLater);
+                
+            if (MangaManager.Instance != null)
+                MangaManager.Instance.OnChapterUnlocked -= ShowUnlockPopup;
         }
 
         // ──────────────────────────────────────────────
@@ -119,7 +116,7 @@ namespace ChefJourney.Manga
 
             // Set content
             if (titleText != null)
-                titleText.text = "📖 A New Tale Unlocked!";
+                titleText.text = "A New Tale Unlocked!";
 
             if (chapterNameText != null)
                 chapterNameText.text = chapter.chapterTitle;
@@ -154,10 +151,10 @@ namespace ChefJourney.Manga
                 rewardContainer.SetActive(chapter.coinReward > 0 || chapter.gemReward > 0);
 
             if (coinRewardText != null)
-                coinRewardText.text = chapter.coinReward > 0 ? $"+{chapter.coinReward} 🪙" : "";
+                coinRewardText.text = chapter.coinReward > 0 ? $"+{chapter.coinReward} Coins" : "";
 
             if (gemRewardText != null)
-                gemRewardText.text = chapter.gemReward > 0 ? $"+{chapter.gemReward} 💎" : "";
+                gemRewardText.text = chapter.gemReward > 0 ? $"+{chapter.gemReward} Gems" : "";
 
             // Show with animation
             if (popupRoot != null)

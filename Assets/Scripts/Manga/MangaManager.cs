@@ -64,6 +64,11 @@ namespace ChefJourney.Manga
             Instance = this;
             DontDestroyOnLoad(gameObject);
 
+            if (allChapters == null || allChapters.Count == 0)
+            {
+                allChapters = MangaDataLoader.LoadAllArcs();
+            }
+
             LoadProgress();
         }
 

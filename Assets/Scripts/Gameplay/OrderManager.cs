@@ -10,15 +10,18 @@ namespace ChefJourney.Gameplay
     /// </summary>
     public class OrderManager : MonoBehaviour
     {
-        [Header("Config")]
+        [Header("Level Config")]
+        [SerializeField] private Core.Data.LevelConfigSO currentLevel;
+
+        [Header("Runtime Pacing (Overridden by LevelConfig)")]
         [SerializeField] private List<Recipe> availableRecipes = new List<Recipe>();
         [SerializeField] private int maxActiveOrders = 3;
         [SerializeField] private float spawnInterval = 15f;
-        [SerializeField] private float orderTimeout = 60f;
-
-        [Header("Difficulty Scaling")]
-        [SerializeField] private float spawnIntervalReduction = 0.5f;
         [SerializeField] private float minSpawnInterval = 5f;
+        [SerializeField] private float spawnIntervalReduction = 0.5f;
+
+        [Header("Legacy / Fallbacks")]
+        [SerializeField] private float orderTimeout = 60f;
 
         // ─── Runtime ───────────────────────────────────────────
         private readonly List<Order> _activeOrders = new List<Order>();
@@ -30,6 +33,19 @@ namespace ChefJourney.Gameplay
         [HideInInspector] public UnityEvent<Order> OnOrderFailed;
 
         public IReadOnlyList<Order> ActiveOrders => _activeOrders;
+
+        private void Start()
+        {
+            ApplyLevelConfig();
+        }
+
+        private void OnEnable()
+        {
+        }
+
+        private void OnDisable()
+        {
+        }
 
         private void Update()
         {
@@ -104,6 +120,26 @@ namespace ChefJourney.Gameplay
         }
 
         public void ClearAllOrders() => _activeOrders.Clear();
+
+        public void ApplyLevelConfig()
+        {
+            if (currentLevel != null)
+            {
+                availableRecipes = new List<Recipe>(currentLevel.availableMenu);
+                maxActiveOrders = currentLevel.maxSimultaneousOrders;
+                spawnInterval = currentLevel.orderSpawnInterval;
+                _spawnTimer = currentLevel.initialSpawnDelay;
+
+                // Sync GameManager duration if applicable
+                if (Core.GameManager.Instance != null && currentLevel.shiftDuration > 0)
+                {
+                    Core.GameManager.Instance.StartLevel(currentLevel.levelNumber);
+                    // AddScore 0 just to trigger UI updates if money/score were set
+                }
+
+                Debug.Log($"[OrderManager] Loaded Level Config: {currentLevel.levelName}");
+            }
+        }
     }
 
     /// <summary>

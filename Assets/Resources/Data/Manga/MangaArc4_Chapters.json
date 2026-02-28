@@ -1,0 +1,495 @@
+{
+    "arcId": 4,
+    "arcName": "Embers in the Snow",
+    "setting": "Europe & Middle East",
+    "tone": "Intense & Revelatory",
+    "chapters": [
+        {
+            "chapterNumber": 1,
+            "globalIndex": 16,
+            "title": "The Paris Incident",
+            "subtitle": "He was winning. Then he walked away.",
+            "unlockAtLevel": 60,
+            "coinReward": 100,
+            "gemReward": 12,
+            "previewDescription": "The master once competed in the world's most prestigious cooking competition. He was winning...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c1_p1",
+                            "narratorText": "Paris. The city of lights, love, and impossibly good bread. The boy arrived exhausted but electrified.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c1_p2",
+                            "narratorText": "At the Culinary Academy, the name still echoed in hallways.",
+                            "dialogueText": "The Flame d'Or, 2009. Your master was in the final three. His dish was... transcendent. Then he put down his spoon, smiled at the judges, and walked out the door.",
+                            "speakerName": "French Chef Instructor",
+                            "characterExpression": "bewildered",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a4c1_p3",
+                            "narratorText": "Flashback. The competition hall. Cameras, lights, a hundred spectators. The master's dish sits on the judging table — a tiny bowl emitting steam that smelled like a childhood memory.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic"
+                        },
+                        {
+                            "panelId": "a4c1_p4",
+                            "narratorText": "The head judge lifts a spoon. Before it reaches his lips, the master removes the bowl. Smiles. Bows. Walks out. The hall erupts in chaos.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_dramatic_exit"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c1_p5",
+                            "narratorText": "Back in the present.",
+                            "dialogueText": "Why did he leave?",
+                            "speakerName": "Boy",
+                            "characterExpression": "intense",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c1_p6",
+                            "narratorText": "",
+                            "dialogueText": "Nobody knows. He never explained. That SMILE of his haunts me! My colleague tried to imitate it once — terrified a small child.",
+                            "speakerName": "French Chef Instructor",
+                            "characterExpression": "frustrated_funny",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_comedic_sting"
+                        },
+                        {
+                            "panelId": "a4c1_p7",
+                            "narratorText": "The boy stared at the empty competition podium. Why walk away from winning? Unless winning wasn't the point.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "globalIndex": 17,
+            "title": "The Bread of Istanbul",
+            "subtitle": "The one thing the master couldn't cook",
+            "unlockAtLevel": 64,
+            "coinReward": 100,
+            "gemReward": 12,
+            "previewDescription": "In Istanbul, the boy discovers the master's one hilarious weakness: bread.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c2_p1",
+                            "narratorText": "Istanbul. The Grand Bazaar. A bakery older than most countries. And behind the counter — Omar, the master's oldest friend.",
+                            "dialogueText": "His student? Truly? Sit, sit! Tea first, stories second. Or maybe both at once.",
+                            "speakerName": "Baker Omar",
+                            "characterExpression": "warm",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c2_p2",
+                            "narratorText": "Omar's eyes twinkled with mischief.",
+                            "dialogueText": "Your master was a genius with every food on earth. Every food... except one. BREAD. The man COULD NOT bake bread.",
+                            "speakerName": "Baker Omar",
+                            "characterExpression": "delighted",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c2_p3",
+                            "narratorText": "",
+                            "dialogueText": "That can't be true. He could cook anything!",
+                            "speakerName": "Boy",
+                            "characterExpression": "disbelief",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a4c2_p4",
+                            "narratorText": "A montage of catastrophic bread attempts: bread that exploded in the oven. Bread so hard it cracked the table. Bread that somehow caught fire WHILE submerged in water. Bread that developed legs and walked off the counter.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_comedic_montage"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c2_p5",
+                            "narratorText": "",
+                            "dialogueText": "We tried for YEARS. Every week, a new disaster. His bread tasted like 'sadness and cardboard.' His words, not mine!",
+                            "speakerName": "Baker Omar",
+                            "characterExpression": "laughing",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c2_p6",
+                            "narratorText": "",
+                            "dialogueText": "But he always smiled. Even at the bread. Especially at the bread. 'Omar,' he'd say, 'even the universe has flaws. Mine just happens to be made of flour.'",
+                            "speakerName": "Baker Omar",
+                            "characterExpression": "nostalgic",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "globalIndex": 18,
+            "title": "Winter in Moscow",
+            "subtitle": "The cold hasn't won yet",
+            "unlockAtLevel": 68,
+            "coinReward": 110,
+            "gemReward": 15,
+            "previewDescription": "A dark flashback. The master, years younger, nearly freezing to death in a Russian winter...",
+            "pages": [
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a4c3_p1",
+                            "narratorText": "Moscow. Winter. The kind of cold that doesn't care about you. A grandmother in a tiny flat told the boy a story that froze him more than the weather.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_wind_howl"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a4c3_p2",
+                            "narratorText": "Flashback. Twenty years earlier. A young man — barely recognizable as the master — collapsed in the snow outside their building. No coat. No shoes. Frost on his eyelashes.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_somber"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c3_p3",
+                            "narratorText": "The family took him in. They had almost nothing — boiled potatoes, cabbage, a small fire. He was delirious for two days.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c3_p4",
+                            "narratorText": "On the third day, he stood up and cooked. With snow, frozen vegetables, and sheer willpower. A soup that shouldn't have been possible.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c3_p5",
+                            "narratorText": "The grandmother's eyes glistened.",
+                            "dialogueText": "I asked him: 'You smile like someone who has known real cold.' And he said...",
+                            "speakerName": "Russian Grandmother",
+                            "characterExpression": "emotional",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c3_p6",
+                            "narratorText": "",
+                            "dialogueText": "I smile because the cold hasn't won yet.",
+                            "speakerName": "The Master (young)",
+                            "characterExpression": "smile_defiant",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_revelation"
+                        },
+                        {
+                            "panelId": "a4c3_p7",
+                            "narratorText": "The boy understood now. The smile didn't start from joy. It started from poverty, from cold, from refusing to let the world break him. The smile was defiance first. Everything else came later.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 4,
+            "globalIndex": 19,
+            "title": "The Competition That Mattered",
+            "subtitle": "Master vs. student — through a student's student",
+            "unlockAtLevel": 72,
+            "coinReward": 100,
+            "gemReward": 12,
+            "previewDescription": "The boy enters a European competition and faces an unexpected rival: Lan.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c4_p1",
+                            "narratorText": "The European Culinary Open. 200 competitors from 40 countries. The boy entered with shaking hands and a borrowed apron.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c4_p2",
+                            "narratorText": "In the semi-finals, he saw a familiar face across the kitchen.",
+                            "dialogueText": "Well. The boy got far. I'm almost impressed.",
+                            "speakerName": "Lan",
+                            "characterExpression": "smirk",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a4c4_p3",
+                            "narratorText": "Lan had rebuilt herself. Her bitterness had forged into diamond-sharp precision. She was magnificent. The boy had to be better.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c4_p4",
+                            "narratorText": "They cooked. Four hours of fire and focus. The boy used everything — burned lessons, monsoon steam, desert spice, Istanbul warmth, train-station hunger. His whole journey on a plate.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c4_p5",
+                            "narratorText": "He won. By one point. Lan wasn't angry.",
+                            "dialogueText": "He'd be proud. He was always proud. Even when he shouldn't have been.",
+                            "speakerName": "Lan",
+                            "characterExpression": "genuine_smile",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c4_p6",
+                            "narratorText": "Later, over drinks, Lan said something that lodged itself in the boy's mind.",
+                            "dialogueText": "He told me once: 'I'm looking for the recipe that doesn't exist yet.' Does that mean anything to you?",
+                            "speakerName": "Lan",
+                            "characterExpression": "thoughtful",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_mystery"
+                        },
+                        {
+                            "panelId": "a4c4_p7",
+                            "narratorText": "The boy shook his head. But somewhere deep inside, a flicker. He'd heard those words before — in the shack, on the very first day.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 5,
+            "globalIndex": 20,
+            "title": "Letters Never Sent",
+            "subtitle": "The words he couldn't finish",
+            "unlockAtLevel": 75,
+            "coinReward": 120,
+            "gemReward": 15,
+            "previewDescription": "A suitcase of unsent letters — including one addressed to the boy. Unfinished.",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c5_p1",
+                            "narratorText": "Athens. A storage locker. The key had been hidden inside Baker Omar's gift — a small ceramic jar the boy carried for weeks without opening.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c5_p2",
+                            "narratorText": "Inside the locker: a single suitcase. Inside the suitcase: letters. Dozens of them. Unsent. Addressed to people the boy recognized — Lan, Captain Meera, the Spice Monk, Baker Omar.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c5_p3",
+                            "narratorText": "And one addressed to the boy. His name, in the master's handwriting. The boy's hands shook as he opened it.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn",
+                            "sfxKey": "sfx_emotional_deep"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a4c5_p4",
+                            "narratorText": "The letter read:",
+                            "dialogueText": "I left because staying would have meant you'd follow me forever instead of finding your own fire. I'm sorry. I'm—",
+                            "speakerName": "The Master (letter)",
+                            "characterExpression": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a4c5_p5",
+                            "narratorText": "It cut off. Mid-sentence. The pen had stopped. The words trailed into nothing.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_silence"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a4c5_p6",
+                            "narratorText": "The boy broke down. In a storage locker in Athens, holding an unfinished letter from a man who couldn't say what he needed to say.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_deep"
+                        },
+                        {
+                            "panelId": "a4c5_p7",
+                            "narratorText": "But under the letter — a recipe. Handwritten, detailed, complete. A dish the boy had never seen before. And at the bottom of the suitcase: a map. With one location circled. Twice.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn",
+                            "sfxKey": "sfx_adventure_begin"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

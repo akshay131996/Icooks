@@ -1,0 +1,463 @@
+{
+    "arcId": 2,
+    "arcName": "The Trails He Left Behind",
+    "setting": "Across Indian States",
+    "tone": "Adventurous & Bittersweet",
+    "chapters": [
+        {
+            "chapterNumber": 1,
+            "globalIndex": 6,
+            "title": "The Spice Monk of Rajasthan",
+            "subtitle": "Meditation, chili peppers, and a burning beard",
+            "unlockAtLevel": 20,
+            "coinReward": 75,
+            "gemReward": 8,
+            "previewDescription": "In the deserts of Rajasthan, a monk claims the master meditated for 40 days on nothing but chili peppers...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c1_p1",
+                            "narratorText": "Rajasthan. The desert stretched endlessly, the sand like a sea frozen mid-wave. The boy arrived dusty and exhausted.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c1_p2",
+                            "narratorText": "In an ashram at the desert's edge, an old monk recognized the description instantly.",
+                            "dialogueText": "The Smiling Chef! Yes, yes! He came here seven years ago. He meditated for FORTY DAYS eating nothing but chili peppers!",
+                            "speakerName": "Spice Monk",
+                            "characterExpression": "excited",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        },
+                        {
+                            "panelId": "a2c1_p3",
+                            "narratorText": "",
+                            "dialogueText": "His smile burned so bright it pushed away the darkness itself! The whole desert glowed orange for a week!",
+                            "speakerName": "Spice Monk",
+                            "characterExpression": "dramatic",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideRight"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c1_p4",
+                            "narratorText": "The monk insisted on recreating the master's legendary dish. It did not go well.",
+                            "dialogueText": "I remember the recipe perfectly! Watch!",
+                            "speakerName": "Spice Monk",
+                            "characterExpression": "confident",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c1_p5",
+                            "narratorText": "Three minutes later, the monk's beard was on fire. The boy helped him put it out with a pot of yogurt.",
+                            "dialogueText": "MY BEARD! THE RECIPE BETRAYED ME!",
+                            "speakerName": "Spice Monk",
+                            "characterExpression": "panicked",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_fire_small"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c1_p6",
+                            "narratorText": "After the beard was saved, the monk grew serious. He reached into a wooden box and produced a small pouch.",
+                            "dialogueText": "He left this behind. A rare spice. He said someone would come for it eventually. I think he meant you.",
+                            "speakerName": "Spice Monk",
+                            "characterExpression": "gentle",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn"
+                        },
+                        {
+                            "panelId": "a2c1_p7",
+                            "narratorText": "The boy held the pouch. It smelled like the master's shack. Like home.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "globalIndex": 7,
+            "title": "The Fisher Queen's Debt",
+            "subtitle": "A knife, a storm, and an unspoken love",
+            "unlockAtLevel": 25,
+            "coinReward": 75,
+            "gemReward": 8,
+            "previewDescription": "On the Kerala coast, a fierce fishing captain reveals the master saved her entire fleet...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c2_p1",
+                            "narratorText": "Kerala. The backwaters shimmered green-gold in the morning sun. The boy found her at the docks — Captain Meera, the Fisher Queen.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c2_p2",
+                            "narratorText": "She was as tall as a mast and twice as stubborn.",
+                            "dialogueText": "The Smiling Chef? You mean that ridiculous man who couldn't swim but insisted on cooking ON MY BOAT?",
+                            "speakerName": "Captain Meera",
+                            "characterExpression": "fierce",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a2c2_p3",
+                            "narratorText": "She told the story reluctantly. A monsoon had trapped her fleet. Waves like mountains. The master — who was only supposed to cook on shore — somehow appeared on her lead ship.",
+                            "dialogueText": "He cooked a soup so warm, so impossibly warm, that the wind changed direction. The storm... moved aside. I still don't understand it.",
+                            "speakerName": "Captain Meera",
+                            "characterExpression": "awed",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Dramatic"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c2_p4",
+                            "narratorText": "She reached behind the ship's wheel and pulled out a knife. Old, well-used, with a handle engraved with a tiny smiling face.",
+                            "dialogueText": "He left this. Take it. It's been weighing down my ship for years.",
+                            "speakerName": "Captain Meera",
+                            "characterExpression": "proud",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "ZoomIn"
+                        },
+                        {
+                            "panelId": "a2c2_p5",
+                            "narratorText": "As the boy turned to leave, she called out one last time. Her voice was softer than he'd ever heard it.",
+                            "dialogueText": "Tell him... he still owes me a dance.",
+                            "speakerName": "Captain Meera",
+                            "characterExpression": "vulnerable",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "globalIndex": 8,
+            "title": "The Night Market Duel",
+            "subtitle": "A loss that was never what it seemed",
+            "unlockAtLevel": 28,
+            "coinReward": 75,
+            "gemReward": 8,
+            "previewDescription": "In Kolkata's electric night markets, a brash rival claims he once defeated the master...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c3_p1",
+                            "narratorText": "Kolkata hit the boy like a wall of sound, spice, and neon. The night market was alive — oil sizzling, bells ringing, voices competing for attention.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c3_p2",
+                            "narratorText": "The boy entered the street-food competition. His first real test. But someone recognized the master's technique in his cooking.",
+                            "dialogueText": "That knife-work! You learned from the Smiling Chef! Ha! I BEAT that fraud years ago!",
+                            "speakerName": "Rival Chef Rajan",
+                            "characterExpression": "arrogant",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "SlideLeft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a2c3_p3",
+                            "narratorText": "Flashback. Years earlier. The master and Rajan, young and fierce, cooking head-to-head under festival lights.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic"
+                        },
+                        {
+                            "panelId": "a2c3_p4",
+                            "narratorText": "The master's dish was better. Everyone knew. But at the last moment, he added too much salt. Deliberately. The judges chose Rajan.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c3_p5",
+                            "narratorText": "Rajan needed the win. His family's restaurant was closing. The prize money saved it. The master knew. He just smiled.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_emotional_soft"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c3_p6",
+                            "narratorText": "Back in the present. The boy lost his competition too. Not on purpose. He simply wasn't good enough. Yet.",
+                            "dialogueText": "Maybe he wasn't great. Maybe he was just... kind.",
+                            "speakerName": "Boy",
+                            "characterExpression": "doubtful",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 4,
+            "globalIndex": 9,
+            "title": "The Ghost Kitchen",
+            "subtitle": "How many kitchens did he build?",
+            "unlockAtLevel": 32,
+            "coinReward": 80,
+            "gemReward": 8,
+            "previewDescription": "In a remote village, the boy discovers an abandoned kitchen identical to the master's shack...",
+            "pages": [
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c4_p1",
+                            "narratorText": "The village had no name on any map the boy could find. He'd followed a hand-drawn route from the master's knife handle.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c4_p2",
+                            "narratorText": "And there it was. The same shack. Same dimensions, same crumbling walls, same burn marks on the ceiling. Identical.",
+                            "dialogueText": "This... this is his kitchen. But it can't be. His kitchen is in my town.",
+                            "speakerName": "Boy",
+                            "characterExpression": "shocked",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "ZoomIn",
+                            "sfxKey": "sfx_mystery"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c4_p3",
+                            "narratorText": "An old woman emerged from the neighboring house.",
+                            "dialogueText": "You found his kitchen? He built one of these in every state. Same layout, every time. Like he was trying to recreate something.",
+                            "speakerName": "Old Woman",
+                            "characterExpression": "knowing",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c4_p4",
+                            "narratorText": "",
+                            "dialogueText": "What was he looking for?",
+                            "speakerName": "Boy",
+                            "characterExpression": "intense",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c4_p5",
+                            "narratorText": "She shook her head.",
+                            "dialogueText": "I don't know. But he was looking for it for a very, very long time.",
+                            "speakerName": "Old Woman",
+                            "characterExpression": "serious",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Splash",
+                    "panels": [
+                        {
+                            "panelId": "a2c4_p6",
+                            "narratorText": "Inside the ghost kitchen, maps covered the walls. Routes across countries, with dates spanning decades. Some dates were from before the boy was born. Some from before his PARENTS were born.",
+                            "dialogueText": "How old ARE you...?",
+                            "speakerName": "Boy",
+                            "characterExpression": "disturbed",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Dramatic",
+                            "sfxKey": "sfx_deep_mystery"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 5,
+            "globalIndex": 10,
+            "title": "Hunger",
+            "subtitle": "The best dish comes from nothing",
+            "unlockAtLevel": 35,
+            "coinReward": 100,
+            "gemReward": 10,
+            "previewDescription": "Alone, broke, and hungry at a train station. The boy faces his hardest lesson yet.",
+            "pages": [
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a2c5_p1",
+                            "narratorText": "The money ran out somewhere between Hyderabad and nowhere. The last train had left. The platform was empty except for stray dogs and echoes.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "FullPage",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_lonely_wind"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c5_p2",
+                            "narratorText": "The boy searched his bag. Half an onion. A pinch of turmeric. A bruised tomato. Nothing else.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c5_p3",
+                            "narratorText": "He built a tiny fire from newspaper and twigs. He cooked. The result was watery, bland, pathetic.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c5_p4",
+                            "narratorText": "He stared at it. Then he remembered the master's words.",
+                            "dialogueText": "The best dish is the one you make when there's nothing left.",
+                            "speakerName": "The Master (memory)",
+                            "characterExpression": "smile_gentle",
+                            "masterSmileVisible": true,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Vertical",
+                    "panels": [
+                        {
+                            "panelId": "a2c5_p5",
+                            "narratorText": "He cried. Hot, angry tears that fell into the pot. Then he wiped his face and cooked again. This time, he listened. He remembered the burned lessons, the ears cooking, the master's patience.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_somber"
+                        },
+                        {
+                            "panelId": "a2c5_p6",
+                            "narratorText": "A stranger sat down next to him. An old woman traveling alone.",
+                            "dialogueText": "That smells... not terrible. Can I share?",
+                            "speakerName": "Traveling Woman",
+                            "characterExpression": "kind",
+                            "masterSmileVisible": false,
+                            "panelSize": "Medium",
+                            "transition": "Fade"
+                        }
+                    ]
+                },
+                {
+                    "layout": "Cinematic",
+                    "panels": [
+                        {
+                            "panelId": "a2c5_p7",
+                            "narratorText": "They ate together in silence. The food was imperfect. But the connection was not. Sometimes, the meal doesn't need to be great. It just needs to be shared.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade"
+                        },
+                        {
+                            "panelId": "a2c5_p8",
+                            "narratorText": "Dawn came. The boy packed his bag, thanked the woman, and pressed on. The trail led beyond India now.",
+                            "dialogueText": "",
+                            "speakerName": "",
+                            "masterSmileVisible": false,
+                            "panelSize": "Large",
+                            "transition": "Fade",
+                            "sfxKey": "sfx_adventure_continue"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

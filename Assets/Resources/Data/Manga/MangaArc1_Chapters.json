@@ -1,0 +1,527 @@
+{
+  "arcId": 1,
+  "arcName": "The Boy and the Smoke",
+  "setting": "Southern India",
+  "tone": "Warm & Comedic",
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "globalIndex": 1,
+      "title": "The Kitchen That Shouldn't Exist",
+      "subtitle": "A boy follows smoke to destiny",
+      "unlockAtLevel": 3,
+      "coinReward": 50,
+      "gemReward": 5,
+      "previewDescription": "A curious boy follows the smell of something impossible through a crowded market...",
+      "pages": [
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c1_p1",
+              "narratorText": "In the dusty streets of a small southern town, the air always smelled of tamarind and diesel. But on this day... something else.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c1_p2",
+              "narratorText": "The boy followed his nose past the spice vendors, past the flower sellers, past the temple bells...",
+              "dialogueText": "What IS that smell? It's like... like nothing I've ever...",
+              "speakerName": "Boy",
+              "characterExpression": "curious",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "SlideLeft"
+            },
+            {
+              "panelId": "a1c1_p3",
+              "narratorText": "He found it — a crumbling shack at the edge of the market, smoke pouring from every crack like a dragon's den.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "ZoomIn"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c1_p4",
+              "narratorText": "Inside, an old man stood over a flame that shouldn't have been possible in that tiny space. His face was creased with age, but his smile — his smile was something else entirely.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": true,
+              "panelSize": "FullPage",
+              "transition": "Dramatic",
+              "sfxKey": "sfx_dramatic_reveal"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c1_p5",
+              "narratorText": "",
+              "dialogueText": "What are you making?",
+              "speakerName": "Boy",
+              "characterExpression": "wonder",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c1_p6",
+              "narratorText": "",
+              "dialogueText": "Something that doesn't exist yet.",
+              "speakerName": "The Master",
+              "characterExpression": "smile",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c1_p7",
+              "narratorText": "The boy didn't understand. But the dish the old man placed before him — it was the most incredible thing he had ever tasted. Like sunlight and rain and his mother's lullaby, all at once.",
+              "dialogueText": "Can you... teach me?",
+              "speakerName": "Boy",
+              "characterExpression": "determined",
+              "masterSmileVisible": true,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c1_p8",
+              "narratorText": "The master said nothing. He just smiled.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 2,
+      "globalIndex": 2,
+      "title": "The Legend of 100 Pots",
+      "subtitle": "The townspeople's wildest tales",
+      "unlockAtLevel": 6,
+      "coinReward": 60,
+      "gemReward": 5,
+      "previewDescription": "The townspeople share their wildly exaggerated stories about the master...",
+      "pages": [
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c2_p1",
+              "narratorText": "The boy started asking around town about the old man. Everyone had a story. None of them were small.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c2_p2",
+              "narratorText": "",
+              "dialogueText": "He once cooked in 100 pots at the same time! Flames shooting everywhere! The fire brigade came THREE TIMES!",
+              "speakerName": "Market Vendor",
+              "characterExpression": "excited",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "SlideLeft"
+            },
+            {
+              "panelId": "a1c2_p3",
+              "narratorText": "",
+              "dialogueText": "That's nothing! He once fed an entire army with a single bag of rice! They say the rice MULTIPLIED in the pot!",
+              "speakerName": "Tea Stall Owner",
+              "characterExpression": "dramatic",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "SlideRight"
+            }
+          ]
+        },
+        {
+          "layout": "Cinematic",
+          "panels": [
+            {
+              "panelId": "a1c2_p4",
+              "narratorText": "",
+              "dialogueText": "And the time he made something so spicy that the RAIN stopped! The sky itself dried up! Even the clouds ran away!",
+              "speakerName": "Old Fisherman",
+              "characterExpression": "wild",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "ZoomIn"
+            },
+            {
+              "panelId": "a1c2_p5",
+              "narratorText": "The boy went back to the shack. He had questions.",
+              "dialogueText": "The people say you cooked in 100 pots at once. Is that true?",
+              "speakerName": "Boy",
+              "characterExpression": "skeptical",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            }
+          ]
+        },
+        {
+          "layout": "Splash",
+          "panels": [
+            {
+              "panelId": "a1c2_p6",
+              "narratorText": "The master looked up, that impossible smile stretching even wider.",
+              "dialogueText": "They exaggerate. It was only 97 pots.",
+              "speakerName": "The Master",
+              "characterExpression": "smile_wink",
+              "masterSmileVisible": true,
+              "panelSize": "FullPage",
+              "transition": "Dramatic",
+              "sfxKey": "sfx_comedic_sting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 3,
+      "globalIndex": 3,
+      "title": "The First Lesson: Burn Everything",
+      "subtitle": "Learning to cook with your ears",
+      "unlockAtLevel": 9,
+      "coinReward": 60,
+      "gemReward": 5,
+      "previewDescription": "The master's first teaching method is absolutely insane. Burn every single dish.",
+      "pages": [
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c3_p1",
+              "narratorText": "The first lesson began at dawn. The master placed ingredients before the boy and gave one instruction.",
+              "dialogueText": "Burn everything.",
+              "speakerName": "The Master",
+              "characterExpression": "smile_serious",
+              "masterSmileVisible": true,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c3_p2",
+              "narratorText": "",
+              "dialogueText": "What?! You want me to... BURN the food? On PURPOSE?",
+              "speakerName": "Boy",
+              "characterExpression": "shocked",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "SlideUp"
+            },
+            {
+              "panelId": "a1c3_p3",
+              "narratorText": "",
+              "dialogueText": "Every dish. For one week. Burn them all.",
+              "speakerName": "The Master",
+              "characterExpression": "smile_calm",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c3_p4",
+              "narratorText": "Day after day, the boy burned everything. Rice, dal, vegetables — all charred black. The other children gathered to laugh.",
+              "dialogueText": "Look at the 'chef'! He can't even cook rice! Ha ha ha!",
+              "speakerName": "Kids",
+              "characterExpression": "mocking",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c3_p5",
+              "narratorText": "By day five, the boy's eyes burned from smoke. His hands ached. He stared at another pan of blackened food and felt something break inside.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "Fade",
+              "sfxKey": "sfx_somber"
+            }
+          ]
+        },
+        {
+          "layout": "Cinematic",
+          "panels": [
+            {
+              "panelId": "a1c3_p6",
+              "narratorText": "That night, the boy sat alone under the stars. The shack was quiet. He almost didn't go back.",
+              "dialogueText": "Is this even worth it...?",
+              "speakerName": "Boy",
+              "characterExpression": "sad",
+              "masterSmileVisible": false,
+              "panelSize": "FullPage",
+              "transition": "Fade"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c3_p7",
+              "narratorText": "But on day seven, something changed. The boy could hear it — the exact moment the oil reached the right temperature. The whisper of steam before it screamed. The crackle that said 'now' instead of 'wait.'",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "ZoomIn"
+            },
+            {
+              "panelId": "a1c3_p8",
+              "narratorText": "",
+              "dialogueText": "Now your ears cook, not just your eyes.",
+              "speakerName": "The Master",
+              "characterExpression": "smile_proud",
+              "masterSmileVisible": true,
+              "panelSize": "Large",
+              "transition": "Dramatic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 4,
+      "globalIndex": 4,
+      "title": "The Day the Market Burned",
+      "subtitle": "When disaster becomes a feast",
+      "unlockAtLevel": 12,
+      "coinReward": 75,
+      "gemReward": 5,
+      "previewDescription": "A fire sweeps through the market. The master turns disaster into something beautiful.",
+      "pages": [
+        {
+          "layout": "Splash",
+          "panels": [
+            {
+              "panelId": "a1c4_p1",
+              "narratorText": "It happened on a Tuesday. The dry-goods stall caught first, then the wind carried it. Within minutes, half the market was ablaze.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "FullPage",
+              "transition": "Dramatic",
+              "sfxKey": "sfx_fire_roar"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c4_p2",
+              "narratorText": "People panicked. Goods were lost. Children cried. And in the middle of it all — the master. Smiling.",
+              "dialogueText": "Quickly! Gather everything that survived! ALL of it!",
+              "speakerName": "The Master",
+              "characterExpression": "smile_intense",
+              "masterSmileVisible": true,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c4_p3",
+              "narratorText": "He organized everyone — vendors, customers, even the fire brigade — into a massive open-air kitchen. Singed vegetables, half-melted spices, whatever survived.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "SlideLeft"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c4_p4",
+              "narratorText": "",
+              "dialogueText": "THAT GOAT JUST ATE HALF THE ONIONS!",
+              "speakerName": "Market Vendor",
+              "characterExpression": "furious",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "SlideRight"
+            },
+            {
+              "panelId": "a1c4_p5",
+              "narratorText": "The master just laughed. The goat looked unrepentant.",
+              "dialogueText": "Then we cook without onions! The best chefs adapt!",
+              "speakerName": "The Master",
+              "characterExpression": "smile_laughing",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c4_p6",
+              "narratorText": "By evening, the entire town sat together eating the most chaotic, beautiful meal anyone had ever made. From ashes, a feast.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": true,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c4_p7",
+              "narratorText": "But the boy noticed something no one else did. As the master served the last plate, his hands were shaking. Just slightly. Just enough.",
+              "dialogueText": "",
+              "speakerName": "",
+              "characterExpression": "",
+              "masterSmileVisible": true,
+              "panelSize": "Medium",
+              "transition": "Fade",
+              "sfxKey": "sfx_mystery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 5,
+      "globalIndex": 5,
+      "title": "Smoke Without Fire",
+      "subtitle": "The master vanishes",
+      "unlockAtLevel": 15,
+      "coinReward": 100,
+      "gemReward": 10,
+      "previewDescription": "The boy wakes to find the shack empty. Only smoke remains.",
+      "pages": [
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c5_p1",
+              "narratorText": "The boy arrived at dawn, like every morning. But this morning was different.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c5_p2",
+              "narratorText": "The shack was empty. The pots were cold. The fire — for the first time — was out.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "Fade",
+              "sfxKey": "sfx_silence"
+            }
+          ]
+        },
+        {
+          "layout": "Vertical",
+          "panels": [
+            {
+              "panelId": "a1c5_p3",
+              "narratorText": "A note, pinned to the wall with a rusty nail.",
+              "dialogueText": "Keep the fire going.",
+              "speakerName": "The Master (note)",
+              "characterExpression": "",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "ZoomIn"
+            },
+            {
+              "panelId": "a1c5_p4",
+              "narratorText": "The boy asked the townspeople. They shrugged.",
+              "dialogueText": "He always leaves. He always comes back.",
+              "speakerName": "Tea Stall Owner",
+              "characterExpression": "indifferent",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c5_p5",
+              "narratorText": "But the boy knew. This time was different.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Medium",
+              "transition": "Fade"
+            }
+          ]
+        },
+        {
+          "layout": "Splash",
+          "panels": [
+            {
+              "panelId": "a1c5_p6",
+              "narratorText": "The empty shack. Smoke still curling from the rafters, as if the fire remembered what the walls had forgotten. The boy stood in the doorway, fists clenched, eyes burning.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "FullPage",
+              "transition": "Dramatic",
+              "sfxKey": "sfx_emotional"
+            }
+          ]
+        },
+        {
+          "layout": "Cinematic",
+          "panels": [
+            {
+              "panelId": "a1c5_p7",
+              "narratorText": "He wiped his eyes. He picked up a pot. He lit a fire.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "Fade"
+            },
+            {
+              "panelId": "a1c5_p8",
+              "narratorText": "The boy's journey begins.",
+              "dialogueText": "",
+              "speakerName": "",
+              "masterSmileVisible": false,
+              "panelSize": "Large",
+              "transition": "Fade",
+              "sfxKey": "sfx_adventure_begin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
